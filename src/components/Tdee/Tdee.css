@@ -1,0 +1,410 @@
+
+
+
+.tdeebody .twoboxcontainer{
+    display: flex;
+    flex-direction: row;
+    
+
+   
+}
+
+
+
+.tdeebody .twoboxcontainer  .leftsidebox{
+
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 55%;
+    padding: -50px;
+    background-color: white;
+    color: #006DAB;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.tdeebody .twoboxcontainer  .rightsidebox {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 45%;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.rightsidebox .bodyicon{
+
+
+   height: 17.5%;
+   width: 20%;
+   position: relative;
+   margin-top: 10%;
+   margin-bottom: 5%;
+
+}
+
+.rightsidebox .bodyfat-input-box{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightsidebox .bodyfat-input-box p2{
+
+    position: relative;
+    font-size: 20px;
+    color: #006DAB;
+    margin-right: 30px;
+}
+
+.rightsidebox .bodyfat-input-box input{
+
+    position: relative;
+    border-color: #7CC8FF;
+    border-radius: 10px;
+    height: 150%;
+    width: 25%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    opacity: 70%;
+}
+
+.rightsidebox .bodyfat-calculate {
+
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-color: #7CC8FF;
+    border-radius: 10px;
+    height: 4%;
+    width: 30%;
+    margin-top: 6%;
+    font-size: 15px;
+    color: #006DAB;
+    background-color: transparent;
+    opacity: 70%;
+    cursor: pointer;
+
+}
+
+
+
+.leftsidebox{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+   
+}
+
+
+
+
+.leftsidebox .gen{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+
+
+.leftsidebox  h1{
+
+    display: flex;
+    
+    margin: 30px 50px 0 50px;
+    font-size: 26px;
+}
+
+.leftsidebox .gen p3{
+
+    display: flex;
+    position: relative;
+    margin-right: 60%;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+.leftsidebox .gen .genderbtn{
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 60%;
+    height: 75px;
+    margin-bottom: 10%;
+    
+}
+
+.leftsidebox .gen .genderbtn .malebtn{
+
+    position: relative;
+    border: 1px solid #ABABAB;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px 0px 0px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    color: #3175FE;
+    cursor: pointer;
+    background-color: white;
+}
+
+.leftsidebox .gen  .genderbtn .malebtn:hover {
+    background-color: rgba(255, 255, 255, 0.151);
+    
+}
+
+.gen .genderbtn .femalebtn{
+
+
+    position: relative;
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 0px 10px 10px 0px;
+    width: 100%;
+
+    font-size: 16px;
+    color: #E03078;
+    cursor: pointer;
+    background-color: white;
+}
+
+.leftsidebox .gen  .genderbtn .femalebtn:hover {
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+
+
+.maleicon{
+
+  
+    position: relative;
+    height: 100px;
+    width: 15%;
+    color: #3175FE;
+    right: 74%;
+    top: -18%;
+    margin-right: 13px;
+
+
+  
+}
+
+
+.femaleicon{
+
+    position: relative;
+    height: 100px;
+    width: 15%;
+    color: #E03078;
+    right: 42%;
+    top: -15%;
+    margin-right: 13px;
+    
+  
+}
+
+.gen .tdee-input-box1, .tdee-input-box2, .tdee-input-box3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 250px;
+    margin-top: 2%;
+    margin-bottom: 2.5%;
+    font-size: 20px;
+
+}
+
+.gen .tdee-input-box1 input{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-color: #7CC8FF;
+    border-radius: 10px;
+    height: 45px;
+    width: 12.5%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    opacity: 70%;
+    margin-left: 6%;
+
+
+
+}
+.gen .tdee-input-box2 input{
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    border-color: #7CC8FF;
+    border-radius: 10px;
+    height: 45px;
+    width: 12.5%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    opacity: 70%;
+    margin-left: 4.5%;
+
+
+}
+.gen .tdee-input-box3 input{
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    border-color: #7CC8FF;
+    border-radius: 10px;
+    height: 45px;
+    width: 12.5%;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    opacity: 70%;
+    margin-left: 4.3%;
+
+
+}
+.gen .tdee-calculate {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #2295D0;
+    border-radius: 10px;
+    border-color: transparent;
+    height: 50px;
+    width: 40%;
+    font-size: 20px;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: -30px;
+    cursor: pointer;
+    z-index: 1;
+    margin-top: -5%;
+    bottom: 175px;
+    z-index: 1;
+  
+}
+
+
+
+.leftsidebox .gen  .tdee-calculate:hover {
+    background-color: #025985;
+
+}
+
+
+.leftsidebox .gen-act {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftsidebox .act {
+
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10%;
+
+}
+
+
+.leftsidebox .act p3{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    font-size: 20px;    
+    margin-bottom: 5%;
+    
+   
+   
+}
+
+
+.leftsidebox .act button{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    height: 60px;
+    font-size:  20px;
+    background: #E9F2FD;
+    border: 1px solid #7CC8FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 30%;
+    z-index: 1;
+    cursor: pointer;
+    
+
+}
+
+.leftsidebox .act button:hover {
+    background-color: #a6b6be;
+
+}
+
+.leftsidebox .act button:focus {
+    background-color: #9ebcf8;
+}
+
+
+.resultcontainer{
+   
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 75%;
+    height: 150px;
+    font-size:  20px;
+    background: #E9F2FD;
+    border: 1px solid #7CC8FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: 3%;
+    bottom: 175px;
+    margin-bottom: 0;
+}
+
+.resultcontainer h3{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.resultcontainer p3{   
+
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}

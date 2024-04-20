@@ -1,0 +1,408 @@
+@media (max-width : 1600px) {
+
+    body .homebody .fourcolorbox .bluebox1{
+       
+        position: relative;
+        right: 40px;
+        
+        
+    }
+
+ 
+}
+
+@media (max-width : 1200px) {
+
+   
+}
+
+
+
+
+@media (max-width : 800px) {
+    .homebody .fourbluebox .bluebox p3{
+        position: relative;
+        display: flex;
+        font-size: 17px;
+       
+    }
+    .homebody .fourbluebox .bluebox p4{
+        position: relative;
+        display: flex;
+        font-size: 15px;
+        top: 10px;
+        margin-bottom: 10px;
+       
+    }
+    .homebody .fourbluebox .bluebox1 p3{
+        font-size: 17px;
+        bottom : 15px
+    }
+    body .homebody .fourbluebox .bluebox button {
+        display: flex;
+        width: 40px;
+        bottom: -10px;
+    }
+
+    body .homebody .fourbluebox .bluebox1 button  {
+        display: flex;
+        width: 40px;
+  
+    }
+    .homebody .fourbluebox button .arrow {
+        color: white;
+        font-size: 30px;
+        margin-left: 2.5px;
+    }
+
+
+    .homebody .humancontainer .locdetail {
+        position: relative;
+        bottom: 10px;
+    }
+
+}
+
+.homebody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 200vh;
+    background-color: white;
+    padding-bottom: 650px;
+    
+}
+
+
+
+.homebackground {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    animation: change 12s infinite;
+    animation-direction: normal;
+    background-image: url('../assets/homebg1.avif');
+    background-size: cover;
+    padding-bottom: 650px;
+
+}
+
+@keyframes change {
+    0% {
+        background-image: url('../assets/homebg1.avif')
+    }
+
+    50% {
+        background-image: url('../assets/Top-10-Medical-Work-Experience-NHS-Doctor-GP-practice-medicine-1024x638.jpg')
+    }
+
+    100% {
+        background-image: url('../assets/image-2021-11-18T11-30-54.244Z.jpg')
+    }
+}
+
+
+.homebody .fourbluebox {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+
+}
+
+
+.homebody .fourbluebox .bluebox{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: white;
+    opacity: 0.9;
+    margin-top: -200px;
+    width: 50%;
+    height: 400px;
+    background-color: #50B4E3 ;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.homebody .fourbluebox .bluebox1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    color: white;
+    opacity: 0.9;
+    margin-top: -200px;
+    width: 50%;
+    height: 400px;
+    background-color: #0989CB ;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.fourbluebox .bluebox button {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+    width: 20%;
+    height: 80px;
+    background-color: black;
+    border: black;
+    cursor: pointer;
+}
+
+.fourbluebox .bluebox1 button {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+    width: 20%;
+    height: 80px;
+    background-color: black;
+    border: black;
+    cursor: pointer;
+}
+
+
+.fourbluebox button .arrow {
+    color: white;
+    font-size: 38px;
+    margin-left: 2.5px;
+}
+
+
+
+.fourbluebox .bluebox p3 {
+
+    position: relative;
+    margin-top: -40px;
+    font-size: 26px;
+    bottom: 5px;
+  
+
+}
+
+.fourbluebox .bluebox p4 {
+
+    position: relative;
+    margin-top: -40px;
+    font-size: 26px;
+    bottom: 5px;
+  
+
+}
+
+.fourbluebox .bluebox1 p3 {
+
+    position: relative;
+    font-size: 26px;
+    bottom: 10px;
+    
+}
+
+.fourbluebox .bluebox .glasses {
+    display: flex;
+    position: relative;
+    width: 40%;
+    height: 150px;
+    top: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.fourbluebox .bluebox1 .cal {
+    display: flex;
+    position: relative;
+    width: 40%;
+    height: 150px;
+    top: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+
+.fourbluebox .bluebox .news {
+    display: flex;
+    position: relative;
+    width: 40%;
+    height: 150px;
+    top: 0px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+}
+
+
+
+
+.fourbluebox .bluebox1 .loc {
+    display: flex;
+    position: relative;
+    width: 40%;
+    height: 150px;
+    top: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
+}
+
+
+
+
+
+.homebody .humancontainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    
+
+}
+
+
+
+.homebody .humancontainer .humanbenchmark{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-right: 25px;
+    bottom: 12px;
+  
+
+}
+.homebody .humancontainer .tdeedetail{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 80px;
+    margin-left: 25px;
+
+
+}
+
+.homebody .humancontainer .newsdetail{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+
+
+    margin-left: 80px;
+    margin-right: 30px;
+         
+
+
+}
+
+
+.homebody .humancontainer .locdetail{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+   
+    margin-right: 80px;
+    margin-left: 30px;
+    left: -10px;
+    bottom: 12.5px;
+  
+    
+}
+
+
+.twocolorbox {
+    display: flex;
+    width: 130px;
+    height: 130px;
+    background-image: linear-gradient(90deg, #0989CB 50%, #50B4E3 50%);
+    position: relative;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    margin-bottom: 30px;
+  
+
+}
+
+.humancontainer h3{
+    display: flex;
+    font-size: 22px;
+}
+
+.humancontainer p3{
+    display: flex;
+    font-size: 15px;
+}
+
+.line {
+    position: relative;
+    width: 80%;
+    margin-top: 100px;
+    border: 1px solid #E5E5E5;
+}
+
+
+
+
+.newstoday{
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+    right: 40%;
+}
+
+
+
+
+.newstoday .bluerod{
+
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 10px;
+    border: 1px solid #2295D0;
+    background-color:  #2295D0;
+    margin-right: 20px;
+}
+

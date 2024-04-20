@@ -1,0 +1,209 @@
+
+@media (max-width : 1195px) {
+
+    
+    .navpage .nav a{
+    
+        font-size: 20px;
+    }
+
+    .navpage .nav .reslogo{
+        width: 80%;
+       
+    } 
+
+
+
+
+}
+
+@media (max-width : 1099px) {
+
+    
+    .navpage .nav a{
+    
+        font-size: 16px;
+    }
+    
+   
+
+
+
+
+}
+
+
+@media (max-width : 1045px) {
+
+    
+ 
+    .navpage .nav .reslogo{
+        width: 70%;
+      
+    } 
+
+
+   
+}
+
+@media (max-width : 1005px) {
+
+    
+  
+    .navpage .nav .bench{
+     
+    
+        display: none;
+    
+       
+    }
+}
+
+
+@media (max-width : 953px) {
+
+    
+   
+    .navpage .nav .tdee{
+     
+    
+        display: none;
+    
+       
+    }
+   
+}
+
+
+@media (max-width : 817px) {
+
+    
+   
+    .navpage .nav .loc{
+     
+    
+        display: none;
+    
+       
+    }
+   
+}
+
+@media (max-width : 711px) {
+
+    
+   
+    .navpage .nav .aboutus{
+     
+    
+        display: none;
+    
+       
+    }
+   
+}
+
+
+@media (max-width : 611px) {
+
+    
+    .navpage .nav a{
+     
+    
+        font-size: 13px;
+       
+    }
+   
+    .navpage .nav p1{
+     
+    
+        display: none;
+    
+       
+    }
+    
+   
+}
+
+
+
+
+
+
+
+
+.navpage {
+
+    position: sticky;
+    top : 0;
+    z-index: 1;
+    
+    width: 100%;
+    
+}
+
+
+.nav {
+    background-size: cover;
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 35px;
+    gap: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    top : 0;
+
+}
+
+.nav .homelogo {
+
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-right: 0;
+
+}
+
+.nav a {
+
+    font-size: 24px;
+    color: black;
+    margin-right: 30px;
+    display: inline;
+    position: relative;
+    top: 20px;
+    right: -15px;
+    text-decoration: none;
+    font-style: bold;
+
+
+}
+
+.nav .linenav {
+    position: relative;
+    width: 1px;
+    border: 1px solid #DDDADA;
+    top: 15px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.nav .buttonsignup {
+
+    padding: 8px 25px;
+
+    border-radius: 35px;
+    color: buttontext;
+    background-color: #4CB1E2;
+    text-decoration: none;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
