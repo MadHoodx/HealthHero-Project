@@ -25,10 +25,7 @@ export default function Signup() {
         const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
         setValidEmail(isValidEmail);
 
-        if (!isValidEmail || password !== confirmPassword) {
-            alert("Please enter a valid email and make sure passwords match.");
-            return;
-        }
+       
 
         try {
             const response = await axios.post("http://localhost:3000/signup", {
