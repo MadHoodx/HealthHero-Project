@@ -46,9 +46,18 @@ app.post("/signup" ,async(req,res)=>{
 
 
     const{email,password, confirmPassword } = req.body;
+       if (!email) {
+      return res.status(400).json({ message: "Email is required." });
+    }
+  
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      return res.status(400).json({ message: "Invalid email format." });
+    }
+  
+  
     if (password !== confirmPassword) {
-        return res.status(400).json({ message: "Password confirmation does not match." });
-      }
+      return res.status(400).json({ message: "Passwords do not match." });
+    }
     
    
 
